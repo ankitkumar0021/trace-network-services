@@ -1,0 +1,71 @@
+.primary_text_xl {
+  @apply text-3xl md:text-4xl lg:text-[40px] lg:leading-[45px] font-michroma text-white font-bold;
+}
+.primary_text {
+  @apply text-3xl lg:text-4xl font-michroma text-white;
+}
+
+.large_text {
+  @apply text-2xl lg:text-3xl font-michroma text-white;
+}
+
+.custom_container_margin {
+  @apply mx-3 lg:mx-[2%] xl:mx-[4%] py-3;
+}
+.custom_container_space {
+  @apply mx-3 lg:mx-[2%] xl:mx-[4%];
+}
+
+.custom_container_padding {
+  @apply px-3 lg:px-[2%] xl:px-[4%] py-3;
+}
+
+.custom_container_padding_two {
+  @apply px-3 lg:px-[2%] xl:px-[4%] py-1;
+}
+
+.space_from_top_large {
+  @apply mt-6 sm:mt-8 md:mt-10 lg:mt-14 xl:mt-18;
+}
+
+.space_from_top {
+  @apply mt-4 sm:mt-4 md:mt-6 lg:mt-8 xl:mt-10;
+}
+
+.space_from_top_normal {
+  @apply mt-4 lg:mt-4 xl:mt-6;
+}
+.space_from_top_normal_sm {
+  @apply mt-4 lg:mt-4;
+}
+.inside_space_normal {
+  @apply p-2 lg:p-3 space-y-3;
+}
+
+.space_from_top_padding {
+  @apply pt-6 sm:pt-8 md:pt-10 lg:pt-12 xl:pt-14;
+}
+
+img {
+  @apply object-cover;
+}
+
+svg {
+  @apply text-2xl;
+}
+
+.footer_social_icon {
+  @apply w-[50px] h-[50px] flex justify-center items-center rounded-full text-white;
+
+  &.face {
+    @apply bg-[#3b5998];
+  }
+
+  &.insta {
+    @apply bg-[#B62682F0];
+  }
+
+  &.youtube {
+    @apply bg-[#cd201f];
+  }
+}

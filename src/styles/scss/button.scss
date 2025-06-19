@@ -1,0 +1,42 @@
+.btn_global {
+  @apply py-1.5 px-5 font-rubik cursor-pointer;
+
+  &.rounded_btn {
+    @apply rounded-full;
+  }
+
+  &.rounded_sm_btn {
+    @apply rounded-md;
+  }
+
+  &.bg_primary {
+    @apply bg-primary text-white hover:bg-red-500;
+  }
+
+  &.bg_primary_light {
+    @apply text-white bg-primary-light font-montserrat font-bold uppercase;
+  }
+
+  &.bg_secondary {
+    @apply text-black border border-secondary bg-secondary;
+  }
+
+  &.btn_full_height {
+    @apply h-full;
+  }
+
+  &.btn_full_width {
+    @apply w-full;
+  }
+  &.btn_fit_width {
+    @apply w-fit;
+  }
+
+  &.btn_carousel {
+    @apply h-[40px] w-[40px] rounded-[5px] flex justify-center items-center bg-carousel-bg p-0;
+
+    svg {
+      @apply text-3xl text-black;
+    }
+  }
+}

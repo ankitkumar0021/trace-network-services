@@ -1,0 +1,20 @@
+.header_search_bar {
+  input {
+    @apply bg-white border-none outline-0 rounded-l-md py-2 px-7.5 text-lg h-full w-full;
+  }
+}
+
+.form_field_wrapper {
+  @apply mb-4;
+  label {
+    @apply block mb-2 text-sm font-medium text-black/70;
+  }
+  input,
+  textarea,
+  select {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm block w-full px-2.5 py-3  focus:ring-transparent;
+  }
+  .error {
+    @apply text-red-500 text-sm;
+  }
+}

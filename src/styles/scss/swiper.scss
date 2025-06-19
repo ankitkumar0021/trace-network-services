@@ -1,0 +1,6 @@
+.swiper_slider_container {
+  @apply relative;
+  .swiper-slide {
+    @apply h-auto;
+  }
+}

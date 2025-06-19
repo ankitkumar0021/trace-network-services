@@ -1,0 +1,136 @@
+@import "tailwindcss";
+@import "../styles/scss/common.scss";
+@import "../styles/scss/form.scss";
+@import "../styles/scss/button.scss";
+@import "../styles/scss/swiper.scss";
+@import "../styles/scss/scrollbar.scss";
+
+/* CSS Variables */
+@theme {
+  --color-primary: #01019e;
+  --color-primary-light: #e42312;
+  --color-secondary: #2c2f1a;
+  --color-secondary-gray: #6e6e6e;
+  --color-secondary-dark: #353434;
+  --color-secondary-light: #666666;
+  --color-light-bg: #f1f1f1;
+  --color-dark-text: #272727;
+  --color-light-dark: #222222;
+  --color-primary-green: #3ea055;
+  --color-card-bg: #f4f7fc;
+  --color-carousel-bg: #eee;
+  --color-primary2: #cb2800;
+
+  /* fonts */
+  --font-rubik: "Rubik", sans-serif;
+  --font-michroma: "Michroma", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+@layer utilities {
+  /* Primary */
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
+  .border-primary {
+    border-color: var(--color-primary);
+  }
+
+  /* primary2  */
+
+  .text-primary2 {
+    color: var(--color-primary2);
+  }
+  .bg-primary2 {
+    background-color: var(--color-primary2);
+  }
+  .border-primary2 {
+    border-color: var(--color-primary2);
+  }
+
+  /* Secondary */
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
+
+  .border-secondary {
+    border-color: var(--color-secondary);
+  }
+
+  /* Accent */
+  .text-secondary-gray {
+    color: var(--color-secondary-gray);
+  }
+
+  .bg-secondary-gray {
+    background-color: var(--color-secondary-gray);
+  }
+
+  .border-secondary-gray {
+    border-color: var(--color-secondary-gray);
+  }
+
+  /* Font utilities */
+  .font-rubik {
+    font-family: var(--font-rubik);
+  }
+
+  .font-michroma {
+    font-family: var(--font-michroma);
+  }
+
+  .font-montserrat {
+    font-family: var(--font-montserrat);
+  }
+}
+
+body {
+  @apply overflow-x-hidden mx-auto font-rubik;
+  background: url(/images/bg-image.jpg) top center;
+  background-size: auto;
+  background-repeat: repeat;
+  /* letter-spacing: -0.03em; */
+}
+
+/* body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+} */
+.custom_base_text {
+  font-size: 15px !important;
+}
+
+input::placeholder {
+  color: #757575;
+  font-size: 16px;
+}
+
+.main_banner .swiper-pagination-bullets {
+  position: relative;
+  bottom: -2px !important;
+}
+
+.main_banner .swiper-pagination-bullet {
+  background: white !important;
+  opacity: 1 !important;
+  width: 6px !important;
+  height: 6px !important;
+  margin: 0 7px !important;
+}
+
+.main_banner .swiper-pagination-bullet-active {
+  background-color: var(--color-primary) !important;
+}
