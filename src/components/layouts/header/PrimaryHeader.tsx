@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import ImageComponent from '@/components/ui/ImageComponent'
 import { motion, AnimatePresence } from 'framer-motion'
+import Link from 'next/link'
 
 export default function PrimaryHeader() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -16,8 +17,8 @@ export default function PrimaryHeader() {
     }
 
     return (
-        <header className="shadow-sm sticky top-0 z-50 bg-gradient-to-br from-gray-100 to-gray-600">
-            <div className="mx-auto px-4 sm:px-6 lg:px-8 sm:min-h-[106px] lg:min-h-[100px] flex items-center justify-between">
+        <header className="shadow-sm sticky top-0 z-50 bg-gradient-to-br from-gray-100 to-gray-600 custom_container_padding">
+            <div className="mx-auto sm:min-h-[106px] lg:min-h-[80px] flex items-center justify-between">
                 <div className="flex items-center justify-between w-full lg:w-auto">
                     <div className="w-[120px] sm:w-[140px] lg:w-[160px]">
                         <ImageComponent url={`/images/trace.png`} img_title={`Logo`} object_cover={false}/>
@@ -37,10 +38,11 @@ export default function PrimaryHeader() {
                 </div>
 
                 <div className="hidden lg:flex items-center space-x-8">
-                    <a href="/about" className="text-gray-900 font-montserrat hover:text-primary transition-colors">About</a>
-                    <a href="/services" className="text-gray-900 font-montserrat hover:text-primary transition-colors">Services</a>
-                    <a href="/contact" className="text-gray-900 font-montserrat hover:text-primary transition-colors">Contact</a>
-                    <button className="bg-primary text-white px-4 py-2 font-montserrat font-semibold rounded-md hover:bg-primary-dark transition-colors">
+                    <Link href="/about-us" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">About Us</Link>
+                    <Link href="/services" className="text-white font-semibold text-2xl font-poppinst hover:text-primary transition-colors">Our Services</Link>
+                    <Link href="/contact" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">Contact</Link>
+                    <Link href="/contact" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">T&C</Link>
+                    <button className="bg-primary text-white px-4 py-2 font-montserrat font-semibold rounded-md hover:bg-white hover:text-primary transition-colors">
                         Get Started
                     </button>
                 </div>
