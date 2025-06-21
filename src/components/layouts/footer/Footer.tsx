@@ -119,7 +119,7 @@ export default function Footer() {
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <motion.a
-              href="/privacy"
+              href="/privacy-policy"
               className="text-gray-400 hover:text-primary text-sm"
               variants={linkVariants}
               whileHover="hover"
@@ -127,7 +127,7 @@ export default function Footer() {
               Privacy Policy
             </motion.a>
             <motion.a
-              href="/terms"
+              href="/terms-and-conditions"
               className="text-gray-400 hover:text-primary text-sm"
               variants={linkVariants}
               whileHover="hover"

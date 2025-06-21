@@ -20,9 +20,9 @@ export default function PrimaryHeader() {
         <header className="shadow-sm sticky top-0 z-50 bg-gradient-to-br from-gray-100 to-gray-600 custom_container_padding">
             <div className="mx-auto sm:min-h-[106px] lg:min-h-[80px] flex items-center justify-between">
                 <div className="flex items-center justify-between w-full lg:w-auto">
-                    <div className="w-[120px] sm:w-[140px] lg:w-[160px]">
+                    <Link href={`/`} className="w-[120px] sm:w-[140px] lg:w-[160px]">
                         <ImageComponent url={`/images/trace.png`} img_title={`Logo`} object_cover={false}/>
-                    </div>
+                    </Link>
                     <button 
                         className="lg:hidden p-2 -mr-2"
                         onClick={toggleMenu}
@@ -40,11 +40,9 @@ export default function PrimaryHeader() {
                 <div className="hidden lg:flex items-center space-x-8">
                     <Link href="/about-us" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">About Us</Link>
                     <Link href="/services" className="text-white font-semibold text-2xl font-poppinst hover:text-primary transition-colors">Our Services</Link>
-                    <Link href="/contact" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">Contact</Link>
-                    <Link href="/contact" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">T&C</Link>
-                    <button className="bg-primary text-white px-4 py-2 font-montserrat font-semibold rounded-md hover:bg-white hover:text-primary transition-colors">
-                        Get Started
-                    </button>
+                    <Link href="/contact-us" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">Contact</Link>
+                    <Link href="/terms-and-conditions" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">T&C</Link>
+                    <button className="bg-primary text-white px-4 py-2 font-montserrat font-semibold rounded-md hover:bg-white hover:text-primary transition-colors">Get Started</button>
                 </div>
             </div>
 
@@ -59,12 +57,10 @@ export default function PrimaryHeader() {
                     >
                         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                             <div className="flex flex-col space-y-4">
-                                <a href="/about" className="text-gray-700 hover:text-primary py-2">About</a>
-                                <a href="/services" className="text-gray-700 hover:text-primary py-2">Services</a>
-                                <a href="/contact" className="text-gray-700 hover:text-primary py-2">Contact</a>
-                                <button className="bg-primary w-fit text-white px-4 py-2 rounded-md hover:bg-primary-dark text-left">
-                                    Get Started
-                                </button>
+                                <Link href="/about-us" className="text-gray-700 hover:text-primary py-2">About</Link>
+                                <Link href="/services" className="text-gray-700 hover:text-primary py-2">Services</Link>
+                                <Link href="/terms-and-conditions" className="text-gray-700 hover:text-primary py-2">Contact</Link>
+                                <button className="bg-primary w-fit text-white px-4 py-2 rounded-md hover:bg-primary-dark text-left">Get Started</button>
                             </div>
                         </div>
                     </motion.div>
