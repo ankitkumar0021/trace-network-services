@@ -24,7 +24,7 @@ export default function PrimaryHeader() {
                         <ImageComponent url={`/images/trace.png`} img_title={`Logo`} object_cover={false}/>
                     </Link>
                     <button 
-                        className="lg:hidden p-2 -mr-2"
+                        className="lg:hidden p-2 mr-2"
                         onClick={toggleMenu}
                         aria-label="Toggle menu"
                     >
@@ -36,16 +36,13 @@ export default function PrimaryHeader() {
                         </div>
                     </button>
                 </div>
-
                 <div className="hidden lg:flex items-center space-x-8">
                     <Link href="/about-us" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">About Us</Link>
                     <Link href="/services" className="text-white font-semibold text-2xl font-poppinst hover:text-primary transition-colors">Our Services</Link>
                     <Link href="/contact-us" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">Contact</Link>
-                    <Link href="/terms-and-conditions" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">T&C</Link>
                     <button className="bg-primary text-white px-4 py-2 font-montserrat font-semibold rounded-md hover:bg-white hover:text-primary transition-colors">Get Started</button>
                 </div>
             </div>
-
             <AnimatePresence>
                 {isMenuOpen && (
                     <motion.div 

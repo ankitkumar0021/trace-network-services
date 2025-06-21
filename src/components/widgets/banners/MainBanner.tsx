@@ -81,7 +81,7 @@ export default function MainBanner() {
                     >
                         {slides.map((group, index) => (
                             <SwiperSlide key={index}>
-                                <div className="grid grid-cols-2 w-full h-full">
+                                <div className="grid grid-cols-2 w-full h-[400px]">
                                     {group.map((banner) => (
                                         <Link href={banner.link} key={banner.id} className="relative w-full">
                                             <ImageComponent url={banner.image} img_title={banner.alt} object_cover={true} />
