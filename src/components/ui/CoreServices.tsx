@@ -1,4 +1,5 @@
 // src/components/CoreServices.jsx
+import Link from 'next/link';
 import React from 'react';
 import { FaTools, FaGlobe, FaServer} from 'react-icons/fa';
 
@@ -41,7 +42,7 @@ const CoreServices = () => {
   ];
 
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-gray-800 text-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg_gradient main_padding_color">
       <div>
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-400">
@@ -85,9 +86,9 @@ const CoreServices = () => {
         </div>
         
         <div className="mt-16 text-center">
-          <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-green-600 text-white font-bold rounded-full hover:from-blue-700 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-blue-500/20">
+          <Link href="/services" className="px-8 py-3 bg-gradient-to-r from-blue-600 to-green-600 text-white font-bold rounded-full hover:from-blue-700 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-blue-500/20">
             Explore All Services
-          </button>
+          </Link>
         </div>
       </div>
     </div>

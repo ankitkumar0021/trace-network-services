@@ -20,7 +20,7 @@ export default function PrimaryHeader() {
         <header className="shadow-sm sticky top-0 z-50 bg-gradient-to-br from-gray-100 to-gray-600 custom_container_padding">
             <div className="mx-auto sm:min-h-[106px] lg:min-h-[80px] flex items-center justify-between">
                 <div className="flex items-center justify-between w-full lg:w-auto">
-                    <Link href={`/`} className="w-[120px] sm:w-[140px] lg:w-[160px]">
+                    <Link href={`/`} className="w-[80px] sm:w-[100px] lg:w-[130px]">
                         <ImageComponent url={`/images/trace.png`} img_title={`Logo`} object_cover={false}/>
                     </Link>
                     <button 

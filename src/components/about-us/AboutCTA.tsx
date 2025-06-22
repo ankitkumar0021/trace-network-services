@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutCTA = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-gray-800 text-white py-20 px-4 sm:px-6 lg:px-8">
+    <div className="bg_gradient text-white py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
           Let us Build Something Great Together

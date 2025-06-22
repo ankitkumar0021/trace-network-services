@@ -1,9 +1,11 @@
 // src/components/about/AboutIntro.jsx
+import Link from 'next/link';
 import React from 'react';
+import ImageComponent from '../ui/ImageComponent';
 
 const AboutIntro = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-gray-800 text-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg_gradient main_padding_color">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -19,7 +21,11 @@ const AboutIntro = () => {
           </div>
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700/50">
             <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
-              <div className="bg-gray-700 border-2 border-dashed rounded-xl w-full h-64" />
+              <div className="bg-gray-700 border-2 border-dashed rounded-xl w-full h-64" >
+                <Link href={`/about-us`} className="w-[120px] sm:w-[140px] lg:w-[160px]">
+                    <ImageComponent url={`/images/trace.png`} img_title={`Logo`} object_cover={false}/>
+                </Link>
+                </div>
             </div>
           </div>
         </div>

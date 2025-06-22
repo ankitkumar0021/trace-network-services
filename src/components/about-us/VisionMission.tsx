@@ -4,7 +4,7 @@ import { FaBinoculars, FaRocket } from 'react-icons/fa';
 
 const VisionMission = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-gray-800 text-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg_gradient main_padding_color">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="bg-gradient-to-br from-blue-900/30 to-blue-700/30 backdrop-blur-sm rounded-xl p-8 border border-blue-700/50">

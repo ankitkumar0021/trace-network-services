@@ -3,7 +3,7 @@ import React from 'react';
 
 const ContactMap = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-gray-800 text-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg_gradient main_padding_color">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const TermsAndConditions = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-gray-800 text-gray-300 min-h-screen py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg_gradient text-gray-300 min-h-screen py-16 px-4 sm:px-6 lg:px-8">
       <div className='custom_container_margin'>
         {/* Hero Section */}
         <div className="text-center mb-16">

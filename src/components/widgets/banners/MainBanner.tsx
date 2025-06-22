@@ -14,37 +14,37 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 const banners = [
     {
         id: 1,
-        image: "/images/banner/banner1.jpg",
+        image: "/images/banner/banner7.jpg",
         link: "#",
         alt: "Banner 1",
     },
     {
         id: 2,
-        image: "/images/banner/banner2.jpg",
+        image: "/images/banner/banner8.jpg",
         link: "#",
         alt: "Banner 2",
     },
     {
         id: 3,
-        image: "/images/banner/banner3.jpg",
+        image: "/images/banner/banner9.jpg",
         link: "#",
         alt: "Banner 3",
     },
     {
         id: 4,
-        image: "/images/banner/banner1.jpg",
+        image: "/images/banner/banner10.jpg",
         link: "#",
         alt: "Banner 1",
     },
     {
         id: 5,
-        image: "/images/banner/banner2.jpg",
+        image: "/images/banner/banner11.jpg",
         link: "#",
         alt: "Banner 2",
     },
     {
         id: 6,
-        image: "/images/banner/banner3.jpg",
+        image: "/images/banner/banner6.jpg",
         link: "#",
         alt: "Banner 3",
     },
@@ -64,7 +64,7 @@ export default function MainBanner() {
 
     return (
         <>
-            <div className="relative main_banner bg-gradient-to-br from-gray-900 to-gray-800">
+            <div className="relative main_banner bg_gradient">
                 <div className="w-full pb-2">
                     <Swiper
                         modules={[Navigation, Pagination, Autoplay, A11y]}

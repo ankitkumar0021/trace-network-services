@@ -14,8 +14,8 @@ const ExpertiseSection = () => {
   const certifications = [
     { 
       name: "Cisco Certified", 
-      icon: <SiCisco className="text-5xl text-blue-500" />,
-      color: "border-blue-500"
+      icon: <SiCisco className="text-5xl text-pink-500" />,
+      color: "border-pink-500"
     },
     { 
       name: "Huawei Certified", 
@@ -54,7 +54,7 @@ const ExpertiseSection = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg_gradient main_padding_color">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-400">
