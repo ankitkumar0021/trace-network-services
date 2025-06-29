@@ -13,15 +13,16 @@ export default function Footer() {
       { name: 'Contact', href: '/contact' },
     ],
     services: [
-      { name: 'Web Development', href: '/services/web-development' },
-      { name: 'Mobile Apps', href: '/services/mobile-apps' },
-      { name: 'UI/UX Design', href: '/services/design' },
-      { name: 'Consulting', href: '/services/consulting' },
+      { name: 'ISP Network Support Services', href: '#' },
+      { name: 'Managed IT Serivces', href: '#' },
+      { name: 'Network Integration services', href: '#' },
+      { name: 'Consulting', href: '#' },
     ],
     connect: [
-      { name: 'support@trace.com', href: 'mailto:support@trace.com' },
-      { name: '+1 (555) 123-4567', href: 'tel:+15551234567' },
-      { name: '123 Business St, City, USA', href: '#' },
+      // { name: 'support@trace.com', href: 'mailto:support@trace.com' },
+      { name: 'tracenetwork4u@gmail.com', href: '#' },
+      { name: '+91 8059210000', href: '#' },
+      { name: 'Corp. Office, A-121 Top Floor, DDA Shed Okhla Industrial Area Phase 11, New delhi', href: '#' },
     ],
   }
 

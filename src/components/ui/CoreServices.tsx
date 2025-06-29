@@ -25,7 +25,8 @@ const CoreServices = () => {
         "Wireless ISP Setup",
         "FTTH Setup",
         "Core Network & POP Setup",
-        "BGP, MPLS, VPN, GRE Tunnel Configuration"
+        "BGP, MPLS, VPN, GRE Tunnel Configuration",
+        'Peering Solution'
       ]
     },
     {
@@ -33,6 +34,9 @@ const CoreServices = () => {
       icon: <FaServer className="text-4xl" />,
       color: "from-amber-500 to-amber-700",
       items: [
+        'Speed Test Server',
+        'DNS Server',
+        "NMS Server(Alert Server)",
         "Router/Switch/Server Setup",
         "Secure VPN Configurations",
         "VLAN & MPLS Implementation",

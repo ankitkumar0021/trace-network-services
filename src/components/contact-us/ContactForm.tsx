@@ -38,7 +38,7 @@ export default function ContactForm() {
         body: JSON.stringify(formData)
       });
       if (res.ok) {
-        setSubmitted(true);
+        setSubmitted(true); 
         setFormData({ name: '', email: '', phone: '', company: '', service: '', message: '' });
         setTimeout(() => setSubmitted(false), 5000);
       } else {

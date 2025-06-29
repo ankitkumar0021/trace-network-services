@@ -13,6 +13,7 @@ const EquipmentServices = () => {
   ];
 
   const services = [
+    'Speed Test Server',
     "Router/Switch Configuration",
     "Firewall Setup & Security Policies",
     "Wireless Controller Deployment",

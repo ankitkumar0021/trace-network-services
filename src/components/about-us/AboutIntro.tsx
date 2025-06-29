@@ -13,7 +13,7 @@ const AboutIntro = () => {
               Our Story
             </h2>
             <p className="text-lg text-gray-300 mb-6">
-              Founded in 2024, Trace Network Support Services is a dynamic and future-focused IT and network consulting firm specializing in delivering reliable, scalable, and cost-effective solutions for Internet Service Providers (ISPs), Data Centers, and Enterprise environments.
+              Founded in 2023, Trace Network Support Services is a dynamic and future-focused IT and network consulting firm specializing in delivering reliable, scalable, and cost-effective solutions for Internet Service Providers (ISPs), Data Centers, and Enterprise environments.
             </p>
             <p className="text-lg text-gray-300">
               We are passionate about enabling businesses to thrive through optimized network architecture, seamless server integration, and round-the-clock managed services. With a team of certified professionals and years of hands-on experience, we take pride in designing and deploying mission-critical infrastructure that forms the backbone of digital connectivity.

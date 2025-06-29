@@ -1,37 +1,24 @@
 import Link from 'next/link';
 import React from 'react';
-import { FaNetworkWired, FaServer, FaWifi, FaUserShield } from 'react-icons/fa';
+import { FaNetworkWired, FaUserShield } from 'react-icons/fa';
 
 const MeetTheExperts = () => {
   const experts = [
      {
       name: "Shivam Kumar",
-      title: "Network Architect",
-      expertise: "BGP Expert | MikroTik Certified | 7 Years ISP Experience",
+      title: "Director",
+      expertise: "Commercials & Sales | 13 Years ISP Industry Experience",
       icon: <FaNetworkWired className="text-3xl" />,
       color: "from-blue-500 to-blue-700"
     },
     {
-      name: "Priya Sharma",
-      title: "Security Specialist",
-      expertise: "Fortinet NSE4 | VPN Configurations | Enterprise Security",
+      name: "Rohit Jain",
+      title: "Director",
+      expertise: "Core Network Engineer | 15 Years in Networking",
       icon: <FaUserShield className="text-3xl" />,
       color: "from-purple-500 to-purple-700"
     },
-    {
-      name: "Arjun Patel",
-      title: "Wireless Engineer",
-      expertise: "Ubiquiti Certified | WISP Specialist | RF Optimization",
-      icon: <FaWifi className="text-3xl" />,
-      color: "from-green-500 to-green-700"
-    },
-    {
-      name: "Neha Gupta",
-      title: "Systems Administrator",
-      expertise: "Linux Specialist | Server Virtualization | Cloud Migration",
-      icon: <FaServer className="text-3xl" />,
-      color: "from-amber-500 to-amber-700"
-    }
+    
   ];
 
   return (
