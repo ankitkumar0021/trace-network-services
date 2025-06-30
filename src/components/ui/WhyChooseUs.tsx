@@ -65,12 +65,6 @@ const WhyChooseUs = () => {
             </div>
           ))}
         </div>
-        
-        <div className="mt-16 text-center">
-          <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-green-600 text-white font-bold rounded-full text-xl hover:from-blue-700 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-blue-500/20">
-            Get Started Today
-          </button>
-        </div>
       </div>
     </div>
   );

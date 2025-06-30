@@ -18,6 +18,13 @@ const MeetTheExperts = () => {
       icon: <FaUserShield className="text-3xl" />,
       color: "from-purple-500 to-purple-700"
     },
+    {
+      name: "Ankit Kumar",
+      title: "Tech Assistent",
+      expertise: "Software Engineer | 3 Years Experience",
+      icon: <FaUserShield className="text-3xl" />,
+      color: "from-purple-500 to-purple-700"
+    },
     
   ];
 
@@ -33,7 +40,7 @@ const MeetTheExperts = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {experts.map((expert, index) => (
             <div 
               key={index}

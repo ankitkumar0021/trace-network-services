@@ -14,41 +14,22 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 const banners = [
     {
         id: 1,
-        image: "/images/banner/banner7.jpg",
+        image: "/images/common/banner1.png",
         link: "#",
         alt: "Banner 1",
     },
     {
         id: 2,
-        image: "/images/banner/banner8.jpg",
+        image: "/images/common/banner6.png",
         link: "#",
         alt: "Banner 2",
     },
     {
         id: 3,
-        image: "/images/banner/banner9.jpg",
+        image: "/images/common/banner5.png",
         link: "#",
         alt: "Banner 3",
     },
-    {
-        id: 4,
-        image: "/images/banner/banner10.jpg",
-        link: "#",
-        alt: "Banner 1",
-    },
-    {
-        id: 5,
-        image: "/images/banner/banner11.jpg",
-        link: "#",
-        alt: "Banner 2",
-    },
-    {
-        id: 6,
-        image: "/images/banner/banner6.jpg",
-        link: "#",
-        alt: "Banner 3",
-    },
-
 ];
 
 function chunkArray<T>(arr: T[], size: number): T[][] {
@@ -60,7 +41,7 @@ function chunkArray<T>(arr: T[], size: number): T[][] {
 }
 
 export default function MainBanner() {
-    const slides = chunkArray(banners, 2);
+    const slides = chunkArray(banners, 1);
 
     return (
         <>
@@ -81,7 +62,7 @@ export default function MainBanner() {
                     >
                         {slides.map((group, index) => (
                             <SwiperSlide key={index}>
-                                <div className="grid grid-cols-2 w-full h-[400px]">
+                                <div className="grid grid-cols-1 w-full h-[500px]">
                                     {group.map((banner) => (
                                         <Link href={banner.link} key={banner.id} className="relative w-full">
                                             <ImageComponent url={banner.image} img_title={banner.alt} object_cover={true} />

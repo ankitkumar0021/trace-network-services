@@ -8,9 +8,8 @@ export default function Footer() {
   const footerLinks = {
     company: [
       { name: 'About Us', href: '/about' },
-      { name: 'Careers', href: '/careers' },
-      { name: 'Blog', href: '/blog' },
       { name: 'Contact', href: '/contact' },
+      { name: 'Services', href: '/services' },
     ],
     services: [
       { name: 'ISP Network Support Services', href: '#' },
@@ -43,7 +42,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="flex flex-col space-y-4">
-            <div className="w-[140px]">
+            <div className="p-2 w-[120px] bg-white rounded-2xl">
               <ImageComponent
                 url="/images/trace.png"
                 img_title="Footer Logo"

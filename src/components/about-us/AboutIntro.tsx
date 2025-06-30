@@ -21,9 +21,9 @@ const AboutIntro = () => {
           </div>
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700/50">
             <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
-              <div className="bg-gray-700 border-2 border-dashed rounded-xl w-full h-64" >
-                <Link href={`/about-us`} className="w-[120px] sm:w-[140px] lg:w-[160px]">
-                    <ImageComponent url={`/images/trace.png`} img_title={`Logo`} object_cover={false}/>
+              <div className="bg-gray-700 rounded-xl w-full h-64" >
+                <Link href={`/about-us`} className="w-[120px] sm:w-[140px] lg:w-[160px] overflow-hidden">
+                    <ImageComponent url={`/images/common/team1.png`} img_title={`Logo`} object_cover={true} />
                 </Link>
                 </div>
             </div>

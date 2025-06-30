@@ -24,7 +24,7 @@ const ExpertiseSection = () => {
     },
     { 
       name: "Mikrotik Certified", 
-      icon: <SiMikrotik className="text-5xl text-yellow-500" />,
+      icon: <SiMikrotik className="text-5xl  text-yellow-500" />,
       color: "border-yellow-500"
     },
     { 
@@ -45,12 +45,12 @@ const ExpertiseSection = () => {
   ];
 
   const partners = [
-    { name: "Cisco", icon: <SiCisco className="text-4xl" /> },
-    { name: "Huawei", icon: <SiHuawei className="text-4xl" /> },
-    { name: "Mikrotik", icon: <SiMikrotik className="text-4xl" /> },
-    { name: "Juniper", icon: <SiJunipernetworks className="text-4xl" /> },
-    { name: "Nokia", icon: <SiNokia className="text-4xl" /> },
-    { name: "Maipu", icon: <div className="text-2xl font-bold">MAIPU</div> }
+    { name: "Cisco", icon: <SiCisco className="text-4xl text-pink-500" /> },
+    { name: "Huawei", icon: <SiHuawei className="text-4xl text-red-500" /> },
+    { name: "Mikrotik", icon: <SiMikrotik className="text-4xl text-yellow-500" /> },
+    { name: "Juniper", icon: <SiJunipernetworks className="text-4xl text-green-500" /> },
+    { name: "Nokia", icon: <SiNokia className="text-4xl text-indigo-500" /> },
+    { name: "Maipu", icon: <div className="text-2xl font-bold text-purple-500">MAIPU</div> }
   ];
 
   return (
