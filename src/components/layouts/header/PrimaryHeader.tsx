@@ -40,7 +40,7 @@ export default function PrimaryHeader() {
                     <Link href="/about-us" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">About Us</Link>
                     <Link href="/services" className="text-white font-semibold text-2xl font-poppinst hover:text-primary transition-colors">Our Services</Link>
                     <Link href="/contact-us" className="text-white font-semibold text-2xl font-poppins hover:text-primary transition-colors">Contact</Link>
-                    <button className="bg-primary text-white px-4 py-2 font-montserrat font-semibold rounded-md hover:bg-white hover:text-primary transition-colors">Get Started</button>
+                    {/* <button className="bg-primary text-white px-4 py-2 font-montserrat font-semibold rounded-md hover:bg-white hover:text-primary transition-colors">Get Started</button> */}
                 </div>
             </div>
             <AnimatePresence>
@@ -56,7 +56,7 @@ export default function PrimaryHeader() {
                             <div className="flex flex-col space-y-4">
                                 <Link href="/about-us" className="text-gray-700 hover:text-primary py-2">About</Link>
                                 <Link href="/services" className="text-gray-700 hover:text-primary py-2">Services</Link>
-                                <Link href="/terms-and-conditions" className="text-gray-700 hover:text-primary py-2">Contact</Link>
+                                <Link href="/contact-us" className="text-gray-700 hover:text-primary py-2">Contact</Link>
                                 <button className="bg-primary w-fit text-white px-4 py-2 rounded-md hover:bg-primary-dark text-left">Get Started</button>
                             </div>
                         </div>
