@@ -5,7 +5,7 @@ import { FaPaperPlane } from 'react-icons/fa';
 import { useForm, ValidationError } from '@formspree/react';
 
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm('xgvyqplq'); // Your Formspree endpoint ID
+  const [state, handleSubmit] = useForm('meokddqw'); // Your Formspree endpoint ID
 
   return (
     <div className="bg_gradient main_padding_color">
@@ -67,17 +67,17 @@ export default function ContactForm() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+              <div className="grid grid-cols-1  gap-6 mb-6">
                 <div>
                   <label htmlFor="phone" className="block text-gray-300 mb-2">Phone</label>
                   <input type="tel" id="phone" name="phone" className="w-full bg-gray-700/50 border border-gray-600/50 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
                   <ValidationError prefix="Phone" field="phone" errors={state.errors} />
                 </div>
-                <div>
+                {/* <div>
                   <label htmlFor="company" className="block text-gray-300 mb-2">Company</label>
                   <input type="text" id="company" name="company" className="w-full bg-gray-700/50 border border-gray-600/50 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
                   <ValidationError prefix="Company" field="company" errors={state.errors} />
-                </div>
+                </div> */}
               </div>
 
               <div className="mb-6">
