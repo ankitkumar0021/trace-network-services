@@ -59,7 +59,7 @@ export default function Footer() {
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-primary transition-colors"
+                  className="text-gray-400 hover:text-primary-light transition-colors"
                   whileHover={{ scale: 1.1 }}
                   aria-label={label}
                 >
@@ -75,7 +75,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
                 <motion.li key={link.name} variants={linkVariants} whileHover="hover">
-                  <a href={link.href} className="text-gray-400 hover:text-primary text-sm">
+                  <a href={link.href} className="text-gray-400 hover:text-primary-light text-sm">
                     {link.name}
                   </a>
                 </motion.li>
@@ -89,7 +89,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {footerLinks.services.map((link) => (
                 <motion.li key={link.name} variants={linkVariants} whileHover="hover">
-                  <a href={link.href} className="text-gray-400 hover:text-primary text-sm">
+                  <a href={link.href} className="text-gray-400 hover:text-primary-light text-sm">
                     {link.name}
                   </a>
                 </motion.li>
@@ -103,7 +103,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {footerLinks.connect.map((link) => (
                 <motion.li key={link.name} variants={linkVariants} whileHover="hover">
-                  <a href={link.href} className="text-gray-400 hover:text-primary text-sm">
+                  <a href={link.href} className="text-gray-400 hover:text-primary-light text-sm">
                     {link.name}
                   </a>
                 </motion.li>

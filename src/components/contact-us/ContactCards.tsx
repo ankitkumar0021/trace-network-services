@@ -7,23 +7,23 @@ const ContactCards = () => {
     {
       title: "Call Us",
       description: "Speak directly with our technical team",
-      details: "+1 (555) 123-4567",
+      details: "+91 8059210000",
       icon: <FaPhone className="text-3xl" />,
       color: "from-blue-500 to-blue-700",
-      action: "tel:+15551234567"
+      action: "#"
     },
     {
       title: "Email Us",
       description: "Get a response within 24 hours",
-      details: "support@tracenetwork.com",
+      details: "tracenetwork4u@gmail.com",
       icon: <FaEnvelope className="text-3xl" />,
       color: "from-purple-500 to-purple-700",
-      action: "mailto:support@tracenetwork.com"
+      action: "mailto:tracenetwork4u@gmail.com"
     },
     {
       title: "Visit Us",
       description: "Our headquarters location",
-      details: "123 Tech Park, Silicon Valley, CA 94088",
+      details: "Corp. Office, A-121 Top Floor, DDA Shed Okhla Industrial Area Phase 11, New delhi",
       icon: <FaMapMarkerAlt className="text-3xl" />,
       color: "from-green-500 to-green-700",
       action: "https://maps.google.com"

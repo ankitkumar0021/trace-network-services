@@ -57,7 +57,7 @@ export default function PrimaryHeader() {
                                 <Link href="/about-us" className="text-gray-700 hover:text-primary py-2">About</Link>
                                 <Link href="/services" className="text-gray-700 hover:text-primary py-2">Services</Link>
                                 <Link href="/contact-us" className="text-gray-700 hover:text-primary py-2">Contact</Link>
-                                <button className="bg-primary w-fit text-white px-4 py-2 rounded-md hover:bg-primary-dark text-left">Get Started</button>
+                                {/* <button className="bg-primary w-fit text-white px-4 py-2 rounded-md hover:bg-primary-dark text-left">Get Started</button> */}
                             </div>
                         </div>
                     </motion.div>
