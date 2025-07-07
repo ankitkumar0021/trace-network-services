@@ -59,7 +59,7 @@ export default function Footer() {
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-primary-light transition-colors"
+                  className="text-gray-400 hover:text-white transition-colors"
                   whileHover={{ scale: 1.1 }}
                   aria-label={label}
                 >
@@ -75,7 +75,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
                 <motion.li key={link.name} variants={linkVariants} whileHover="hover">
-                  <a href={link.href} className="text-gray-400 hover:text-primary-light text-sm">
+                  <a href={link.href} className="text-gray-400 hover:text-white text-sm">
                     {link.name}
                   </a>
                 </motion.li>
@@ -89,7 +89,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {footerLinks.services.map((link) => (
                 <motion.li key={link.name} variants={linkVariants} whileHover="hover">
-                  <a href={link.href} className="text-gray-400 hover:text-primary-light text-sm">
+                  <a href={link.href} className="text-gray-400 hover:text-white text-sm">
                     {link.name}
                   </a>
                 </motion.li>
@@ -103,7 +103,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {footerLinks.connect.map((link) => (
                 <motion.li key={link.name} variants={linkVariants} whileHover="hover">
-                  <a href={link.href} className="text-gray-400 hover:text-primary-light text-sm">
+                  <a href={link.href} className="text-gray-400 hover:text-white text-sm">
                     {link.name}
                   </a>
                 </motion.li>
@@ -117,6 +117,7 @@ export default function Footer() {
           <p className="text-sm text-gray-400">
             &copy; {new Date().getFullYear()} Trace. All rights reserved.
           </p>
+          <p className="text-sm text-gray-400">© Trace Network Support Services 2025. Designed with ❤️ by Ankit Kumar</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <motion.a
               href="/privacy-policy"
