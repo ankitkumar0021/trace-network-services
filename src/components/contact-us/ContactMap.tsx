@@ -18,7 +18,7 @@ const ContactMap = () => {
           <div className="aspect-w-16 aspect-h-9">
             {/* Google Maps iframe - replace with your actual embed code */}
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101418.82155576356!2d-122.08574927773436!3d37.40247299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2sSilicon%20Valley%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1718877325893!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.23653273717!2d77.26818305311208!3d28.532609327760323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1590d7466cb%3A0xe679f924e75ac573!2sDDA%20Shed%2C%20Block%20A%2C%20Okhla%20Phase%20II%2C%20Okhla%20Industrial%20Estate%2C%20New%20Delhi%2C%20Delhi%20110020!5e0!3m2!1sen!2sin!4v1751906270956!5m2!1sen!2sin"
               className="w-full h-96 border-0"
               allowFullScreen
               loading="lazy"
@@ -30,10 +30,7 @@ const ContactMap = () => {
             <div>
               <h3 className="text-xl font-bold mb-4">Visit Us</h3>
               <p className="text-gray-300">
-                123 Tech Park Drive<br />
-                Suite 500<br />
-                Silicon Valley, CA 94088<br />
-                United States
+               Corp. Office, A-121 Top Floor, DDA Shed Okhla Industrial Area Phase 11, New delhi
               </p>
             </div>
             
@@ -42,15 +39,14 @@ const ContactMap = () => {
               <p className="text-gray-300">
                 Free visitor parking available<br />
                 Garage entrance on Innovation Blvd<br />
-                Reserved spots near Building C
+                Reserved spots near Building
               </p>
             </div>
             
             <div>
               <h3 className="text-xl font-bold mb-4">Office Hours</h3>
               <p className="text-gray-300">
-                Monday-Friday: 9AM-5PM PST<br />
-                Weekends: Closed<br />
+                Monday-Sunday: 7AM-11PM PST<br />
                 <span className="text-blue-400">24/7 Remote Support Available</span>
               </p>
             </div>
