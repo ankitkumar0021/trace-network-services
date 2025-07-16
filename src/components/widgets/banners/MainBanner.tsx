@@ -12,8 +12,8 @@ import ImageComponent from "@/components/ui/ImageComponent";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const banners = [
-  { id: 1, image: "/images/common/banner1.png", link: "#", alt: "Banner 1"  },
-  { id: 2, image: "/images/common/banner6.png", link: "#", alt: "Banner 2" },
+    { id: 2, image: "/images/common/banner6.png", link: "#", alt: "Banner 2" },
+  { id: 1, image: "/images/common/mainbanner1.jpg", link: "#", alt: "Banner 1"  },
   { id: 3, image: "/images/common/banner5.png", link: "#", alt: "Banner 3" },
 ];
 
