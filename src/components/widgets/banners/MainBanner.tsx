@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { A11y, Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -22,8 +21,6 @@ export default function MainBanner() {
   return (
     <div className="relative main_banner bg_gradient">
       <div className="w-full">
-
-        {/* Navigation buttons placed BEFORE Swiper so string selectors work without onBeforeInit */}
         <button
           aria-label="Previous slide"
           className="custom-prev absolute top-1/2 left-3 z-30 -translate-y-1/2 p-2 rounded-full bg-black/40 backdrop-blur-sm hover:bg-black/60 transition-colors"

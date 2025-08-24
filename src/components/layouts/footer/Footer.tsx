@@ -117,7 +117,7 @@ export default function Footer() {
           <p className="text-sm text-gray-400">
             &copy; {new Date().getFullYear()} Trace. All rights reserved.
           </p>
-          <p className="text-sm text-gray-400">© Trace Network Support Services 2025. Designed with ❤️ by Ankit Kumar</p>
+          <p className="text-sm text-gray-400">© Trace Network Support Services 2025. Designed with ❤️ by Code Mantra Technologies</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <motion.a
               href="/privacy-policy"
