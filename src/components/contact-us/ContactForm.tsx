@@ -5,13 +5,12 @@ import { FaPaperPlane } from 'react-icons/fa';
 import { useForm, ValidationError } from '@formspree/react';
 
 export default function ContactForm() {
-  const [state, handleSubmit] = useForm('mnnvyjak'); // Your Formspree endpoint ID
+  const [state, handleSubmit] = useForm('mnnvyjak');
 
   return (
     <div className="bg_gradient main_padding_color">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-          {/* Left Info Panel */}
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Send Us a Message</h2>
             <p className="text-lg text-gray-300 mb-8">
@@ -24,7 +23,7 @@ export default function ContactForm() {
                   'Have your network details ready for faster assistance',
                   'For critical outages, include your ticket number if available',
                   'Business hours response: 8AM-8PM EST | 24/7 for emergencies',
-                ].map((tip, idx) => (
+                ]?.map((tip, idx) => (
                   <li key={idx} className="flex items-start">
                     <div className="flex-shrink-0 mt-1 w-5 h-5 rounded-full bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center">
                       <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -37,10 +36,7 @@ export default function ContactForm() {
               </ul>
             </div>
           </div>
-
-          {/* Right Form Panel */}
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700/50 relative">
-            {/* Success Notification */}
             {state.succeeded && (
               <div className="absolute inset-0 bg-black bg-opacity-75 flex flex-col items-center justify-center rounded-xl p-6">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-green-500 to-green-700 flex items-center justify-center mb-4">
@@ -73,11 +69,6 @@ export default function ContactForm() {
                   <input type="tel" id="phone" name="phone" className="w-full bg-gray-700/50 border border-gray-600/50 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
                   <ValidationError prefix="Phone" field="phone" errors={state.errors} />
                 </div>
-                {/* <div>
-                  <label htmlFor="company" className="block text-gray-300 mb-2">Company</label>
-                  <input type="text" id="company" name="company" className="w-full bg-gray-700/50 border border-gray-600/50 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
-                  <ValidationError prefix="Company" field="company" errors={state.errors} />
-                </div> */}
               </div>
 
               <div className="mb-6">

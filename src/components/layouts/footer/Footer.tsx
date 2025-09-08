@@ -87,7 +87,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Services</h3>
             <ul className="space-y-2">
-              {footerLinks.services.map((link) => (
+              {footerLinks?.services?.map((link) => (
                 <motion.li key={link.name} variants={linkVariants} whileHover="hover">
                   <a href={link.href} className="text-gray-400 hover:text-white text-sm">
                     {link.name}
@@ -101,7 +101,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Get in Touch</h3>
             <ul className="space-y-2">
-              {footerLinks.connect.map((link) => (
+              {footerLinks?.connect && footerLinks?.connect?.length>=0 && footerLinks?.connect?.map((link) => (
                 <motion.li key={link.name} variants={linkVariants} whileHover="hover">
                   <a href={link.href} className="text-gray-400 hover:text-white text-sm">
                     {link.name}
